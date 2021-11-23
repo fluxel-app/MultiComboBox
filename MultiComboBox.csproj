@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <RootNamespace>CustomControls</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Platforms>AnyCPU</Platforms>
+        <RepositoryUrl>https://github.com/fluxel-app/MutliComboBox</RepositoryUrl>
+        <PackageVersion>1.1.2</PackageVersion>
+        <Version>1.1.2</Version>
+        <AssemblyName>MultiComboBox</AssemblyName>
+        <RootNamespace>MultiComboBox</RootNamespace>
+        <PackageId>MultiComboBox</PackageId>
+        <Authors>Fluxel UG</Authors>
+        <Company>MultiComboBox</Company>
+        <Product>MultiComboBox</Product>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>WPF MultiComboBox</Title>
+        <Copyright>2021</Copyright>
+        <PackageProjectUrl>https://github.com/fluxel-app/MutliComboBox</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>multicombobox combobox wpf</PackageTags>
+        <PackageLicenseExpression>CC-BY-4.0</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Page Include="Themes\Generic.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="PresentationCore" />
+      <Reference Include="PresentationFramework" />
+      <Reference Include="PresentationFramework.Aero" />
+      <Reference Include="System.Xaml" />
+      <Reference Include="WindowsBase" />
+    </ItemGroup>
+
+</Project>
