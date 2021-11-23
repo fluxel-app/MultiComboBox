@@ -8,7 +8,7 @@ Based on https://www.codeproject.com/Articles/45782/A-WPF-Combo-Box-with-Multipl
 
 `SelectedItems` must be an instance of `IList`.
 
-###DisplayMemberPath:
+### DisplayMemberPath:
 
 ```xaml
 <customControls:MultiComboBox ItemsSource="{Binding Items}"
